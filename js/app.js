@@ -1,11 +1,5 @@
 'use strict';
 
-/*
- * A Design by GraphBerry
- * Author: GraphBerry
- * Author URL: http://graphberry.com
- * License: http://graphberry.com/pages/license
- */
 jQuery(document).ready(function ($) {
 
     var lastId,
@@ -67,7 +61,7 @@ jQuery(document).ready(function ($) {
     // Bind to scroll
     $(window).scroll(function () {
 
-        //Display or hide scroll to top button 
+        //Display or hide scroll to top button
         if ($(this).scrollTop() > 100) {
             $('.scrollup').fadeIn();
         } else {
@@ -294,8 +288,8 @@ Sand mail
     /************************
     Animate elements
     *************************/
-    
-    //Animate thumbnails 
+
+    //Animate thumbnails
     jQuery('.thumbnail').one('inview', function (event, visible) {
         if (visible == true) {
             jQuery(this).addClass("animated fadeInDown");
@@ -312,7 +306,7 @@ Sand mail
             jQuery(this).removeClass("animated fadeInDown");
         }
     });
-    
+
     //animate first team member
     jQuery('#first-person').bind('inview', function (event, visible) {
         if (visible == true) {
@@ -321,7 +315,7 @@ Sand mail
             jQuery('#first-person').removeClass("animated pulse");
         }
     });
-    
+
     //animate sectond team member
     jQuery('#second-person').bind('inview', function (event, visible) {
         if (visible == true) {
@@ -339,7 +333,7 @@ Sand mail
             jQuery('#third-person').removeClass("animated pulse");
         }
     });
-    
+
     //Animate price columns
     jQuery('.price-column, .testimonial').bind('inview', function (event, visible) {
         if (visible == true) {
@@ -348,7 +342,7 @@ Sand mail
             jQuery(this).removeClass("animated fadeInDown");
         }
     });
-    
+
     //Animate contact form
     jQuery('.contact-form').bind('inview', function (event, visible) {
         if (visible == true) {

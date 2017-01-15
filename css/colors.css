@@ -1,16 +1,12 @@
 /*
-In this file you can predefine simle your color shame. We deliver two predefined.
-*******************************************************/
-
-/*
 Red Color Scheme
 ******************************************************/
 
 .red h1,
 .red h2,
 .red h3,
-.red h4, 
-.red h5, 
+.red h4,
+.red h5,
 .red h6,
 .red .button-light,
 .red .project-info span i{
@@ -21,7 +17,7 @@ Red Color Scheme
    color:#DB7976;
 }
 
-.red .navbar .nav > li > a:hover, 
+.red .navbar .nav > li > a:hover,
 .red .navbar .nav > .active > a{
     border-top: 3px solid #C75A57;
 }
@@ -103,7 +99,7 @@ Red Color Scheme
 
 .red .skills li .bar{
     background-color: #C75A57;
-   
+
 }
 .red .scrollup > a,
 .red .error{
@@ -132,8 +128,8 @@ Green Color Scheme
 .green h1,
 .green h2,
 .green h3,
-.green h4, 
-.green h5, 
+.green h4,
+.green h5,
 .green h6,
 .green .button-light,
 .green .project-info span i{
@@ -144,7 +140,7 @@ Green Color Scheme
    color:#1FC488;
 }
 
-.green .navbar .nav > li > a:hover, 
+.green .navbar .nav > li > a:hover,
 .green .navbar .nav > .active > a{
     border-top: 3px solid #1F7F5C;
 }
@@ -159,7 +155,7 @@ Green Color Scheme
 .green .thumbnail .mask,
 .green #contact{
     background: #1F7F5C;
-    
+
 }
 
 .green .primary-bg{
@@ -194,7 +190,7 @@ Green Color Scheme
     box-shadow: inset 0px 1px 0px #DBDBDB, 0px 2px 0px 0px #B3B1B1;
 }
 .green .button-light:hover {
-   
+
     background:#fafafa;
 }
 .green .button-dark {
@@ -227,7 +223,7 @@ Green Color Scheme
 
 .green .skills li .bar{
     background-color: #1F7F5C;
-   
+
 }
 .green .scrollup > a,
 .green .error{

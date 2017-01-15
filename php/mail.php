@@ -15,7 +15,7 @@ if (!empty($_POST)){
   $emailFrom ="charlie.lanc@gmail.com"; //"contact@yoursite.com";
 
   //email subject
-  $emailSubject = "Here's a job!";
+  $emailSubject = "Hey Charlie!";
 
   $name = $_POST["name"];
   $email = $_POST["email"];
