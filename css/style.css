@@ -32,7 +32,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: #FECE1A;
+    color: #3232FF;
     text-decoration:none;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -712,6 +712,9 @@ p {
 .contact-info p{
      font-weight:normal;
 }
+.contact-num:hover p{
+  color: #000000;
+}
 .contact-info .icon {
     margin:10px auto;
     font-size:30px;
@@ -733,7 +736,7 @@ p {
 }
 .contact .social {
     display: inline-block;
-    margin-left:0;
+    /*margin-left:0;*/
 }
 .contact .social li {
     line-height: 32px;
@@ -756,6 +759,9 @@ p {
     position:relative;
     margin-top:-25px;
     padding:20px;
+    margin-left: 25%;
+    margin-right:25%;
+    display: inline-block; !important;
 }
 .contact-form h3 {
     color:#838589;
@@ -769,7 +775,7 @@ p {
     font-size:17px;
 }
 .message-btn:hover {
-    background-color:#FECE1A;
+    background-color:#FF0000;
 }
 .contact-info {
     text-align:center;
